@@ -1,0 +1,25 @@
+public class Clientes {
+
+    String nomeCliente; 
+    int numeroConta; 
+    int agencia = 001; 
+    String cidade = "Belmonte";
+    String estado = "Bahia"; 
+    double saldoAtual = 200; 
+    
+
+    public void cliente(String nomeCliente, int numeroConta){
+         this.nomeCliente = nomeCliente;
+         this.numeroConta = numeroConta; 
+         this.agencia = agencia;
+         this.cidade = cidade; 
+         this.estado = estado; 
+         this.saldoAtual = saldoAtual; 
+         
+        
+    }
+    
+    
+    
+   
+}
