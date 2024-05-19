@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Conta {
+
+	public static void main(String[] args) {
+
+		 Clientes novoCliente = new Clientes();
+
+         Scanner porta = new Scanner(System.in); 
+
+         
+       System.out.print("Qual o seu nome ? ");
+       String nomeCliente = porta.next();
+       
+       
+       System.out.println("Qual o numero da conta ? "); 
+       int numeroConta = porta.nextInt(); 
+       
+       
+
+      novoCliente.cliente(nomeCliente, numeroConta, agencia, );
+      System.out.println("Nome :" + novoCliente.nomeCliente);
+      System.out.println("Conta Número: " + novoCliente.numeroConta);
+      System.out.println("Agencia Número: " + novoCliente.agencia);
+
+	}
+
+}

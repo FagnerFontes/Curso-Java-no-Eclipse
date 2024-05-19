@@ -1,0 +1,14 @@
+public class Clientes {
+
+    String nomeCliente; 
+    int numeroConta; 
+    double saldoAtual = 2500;  
+   
+    
+
+    public void cliente(String nomeCliente, int numeroConta, int saldoAtual){
+         this.nomeCliente = nomeCliente;
+         this.numeroConta = numeroConta;
+         this.saldoAtual = saldoAtual;
+    }  
+}

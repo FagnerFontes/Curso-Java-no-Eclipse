@@ -1,0 +1,14 @@
+package metodosSemRetorno;
+
+public class Calculadora {
+	
+	public void imprimeSoma(int a, int b) {
+		
+		int soma = a + b;
+	}
+	
+	
+	
+	
+	
+}
