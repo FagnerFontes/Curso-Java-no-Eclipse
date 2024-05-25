@@ -1,9 +1,14 @@
 package condicionais;
 
 /*
-	Faça um programa que peça um número e informe é inteiro ou decimaç. 
-	Dica: utilize uma função de arrendondamento.  
-	   
+	Faça um Programa que leia 2 números e em seguida pergunte ao usuário 
+	qual operação ele deseja realizar. O resultado da operação deve ser
+	acompanhado de uma frase que diga se o número é: 
+	
+	* par ou ímpar
+	* positivo ou negativo; 
+	* inteiro ou decimal
+*/   
 */
 import java.math.*;
 import java.util.Scanner; // Importa a classe Scanner para ler a entrada do usuário
@@ -14,19 +19,13 @@ public class Exer24 {
 
 		Scanner porta = new Scanner(System.in); // Cria um objeto Scanner para ler a entrada do usuário
 		
-		System.out.print("Digite um número: ");
-		double numero = porta.nextDouble(); 
+		System.out.print("Digite o primeiro número: ");
+		double num1 = porta.nextDouble(); 
 		
-		/*
-		 	Math.floor(numero) retorna o maior inteiro menor ou igual a 
-		 número
-		 */
+		System.out.print("Digite o segundo número: ");
+		double num2 = porta.nextDouble();
 		
-		//Verifica se o número é inteiro ou decimal
-		if(numero == Math.floor(numero)) {
-			System.out.println("Este número é inteiro.");
-		}else {
-			System.out.println("Este número é decimal.");
-		}			
+		if(num1 == Math.floor(num1)) {}
+				
 	}
 }

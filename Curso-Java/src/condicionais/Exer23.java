@@ -19,7 +19,7 @@ public class Exer23 {
 		
 		/*
 		 	Math.floor(numero) retorna o maior inteiro menor ou igual a 
-		 número
+		 nmero
 		 */
 		
 		//Verifica se o número é inteiro ou decimal
