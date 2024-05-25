@@ -2,9 +2,6 @@ package condicionais;
 
 //Faça um Programa que leia três números e imprima o maior deles.
  
- 	
-	
-
 import java.util.Scanner; // Importa a classe Scanner para ler a entrada do usuário
 
 public class Exer7 {
