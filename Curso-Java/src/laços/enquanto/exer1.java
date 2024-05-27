@@ -1,6 +1,6 @@
 package laços.enquanto;
 
-public class exe1 {
+public class exer1 {
 
     public static void main(String[] args) {
         
