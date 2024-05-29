@@ -2,7 +2,7 @@ package laços.enquantoFaça;
 
 /* =============== Validação de Entrada ==================
 
-   -Peça ao usuário para digitar um número entre 1 e 10. Continue solicitando a entrada até que um número seja digitado. 
+   - Solicite ao usuário para digitar uma senha até que a senha correta (1234) seja digitada. 
  */
 import java.util.Scanner;
 
@@ -12,7 +12,18 @@ public class Exer4 {
 
         //Cria um objeto "scanner" para ler a entrada do usuário
         Scanner porta = new Scanner(System.in);
+
+        int senha; 
+
         
+
+        do{
+            System.out.print("Digite a senha correta: ");
+        senha = porta.nextInt(); 
+            
+        }while(senha != 123);
+        
+        System.out.println("Programa encerrado!!!");
         
     }
 }
