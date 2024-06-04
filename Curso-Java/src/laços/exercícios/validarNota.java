@@ -6,7 +6,7 @@ package laços.exercícios;
  */
 import java.util.Scanner;
 
-public class Exer2 {
+public class validarNota {
 
     public static void main(String[] args) {
 

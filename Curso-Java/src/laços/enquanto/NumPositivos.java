@@ -4,7 +4,7 @@ import java.util.Scanner;
 ======= Soma de Números Positivos ============ 
     Escreva um programa que peça ao usuário digitar números positivos. O programa deve continuar pedindo números até que o usuário digite o número 0. Quando o número 0 for digitado, o programa deve exibir a soma de todos estes programa soma números
 */
-public class exer2 {
+public class NumPositivos {
 
     public static void main(String[] args) {
         
