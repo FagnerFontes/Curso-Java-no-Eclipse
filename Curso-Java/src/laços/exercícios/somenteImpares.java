@@ -6,22 +6,20 @@ package laços.exercícios;
  */
 import java.util.Scanner;
 
-public class Exer1 {
+public class somenteImpares {
 
     public static void main(String[] args) {
 
         //Cria um objeto "scanner" para ler a entrada do usuário
         Scanner porta = new Scanner(System.in);
-        double nota;
-       
 
-        do{
-            System.out.print("Digite uma nota entre 0 e 10: ");
-             nota = porta.nextDouble(); 
+       int  impar = 0; 
 
-        }while(nota <0 || nota >10 );
+        for (int i = 1; i <= 150; i++) {
 
-        
-           System.out.println("A nota digitada foi: " + nota);
+             if (i % 2 !=  0) {
+            System.out.print("." + i );
+        }
+     }
     }
 }
