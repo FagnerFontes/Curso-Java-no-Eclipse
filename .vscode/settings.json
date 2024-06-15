@@ -1,0 +1,4 @@
+{
+  "jdk.runConfig.vmOptions": "--enable-preview --source 22",
+  "liveServer.settings.port": 5502
+}

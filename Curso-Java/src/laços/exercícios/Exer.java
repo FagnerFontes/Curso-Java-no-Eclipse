@@ -6,13 +6,13 @@ package laços.exercícios;
  */
 import java.util.Scanner;
 
-public class Exer1 {
+public class Exer {
 
     public static void main(String[] args) {
 
         //Cria um objeto "scanner" para ler a entrada do usuário
         Scanner porta = new Scanner(System.in);
-        double nota;
+        
        
 
         
